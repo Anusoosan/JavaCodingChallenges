@@ -18,7 +18,7 @@ public class RunnerClass {
 		System.out.println("Sum of even numbers from 10 to 30 is " + sum.printSumOfEvenNumbers());
 
 		FactorialOfANumber fac = new FactorialOfANumber();
-		System.out.println("10! is " + fac.printFactorial());
+		System.out.println("10! is " + fac.printFactorial(5));
 
 		TemperatureConversion temperature = new TemperatureConversion(88);
 		System.out.println("Converting temperature from Celsius to farenheit: " + temperature.getCelsiusToFarenheit());
